@@ -1,24 +1,25 @@
 data:
+  allowedHosts:
+    hosts:
+      - TODO # Please change to the hostname of the source.
+  registries:
+    oss:
+      enabled: false
+    cloud:
+      enabled: false
   connectorSubtype: api
   connectorType: source
-  definitionId: d8540a80-6120-485d-b7d6-272bca477d9b
-  dockerImageTag: 0.1.6
+  definitionId: ec389b7a-444e-4195-a963-1733897ab271
+  dockerImageTag: 0.1.0
   dockerRepository: airbyte/source-openweather
   githubIssueLabel: source-openweather
   icon: openweather.svg
   license: MIT
-  name: OpenWeather
-  registries:
-    cloud:
-      enabled: true
-    oss:
-      enabled: true
+  name: Openweather
+  releaseDate: TODO
   releaseStage: alpha
+  supportLevel: community
   documentationUrl: https://docs.airbyte.com/integrations/sources/openweather
   tags:
-    - language:python
-  ab_internal:
-    sl: 100
-    ql: 100
-  supportLevel: community
+    - language:lowcode
 metadataSpecVersion: "1.0"
